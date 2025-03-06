@@ -1064,13 +1064,14 @@ detect-libc@^2.0.3:
 "devstore@file:.":
   version "0.1.0"
   dependencies:
-    devstore "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-devstore-0.1.0-c15803cc-b7e9-4ce4-a650-b98801162630-1741035994292/node_modules/devstore"
+    devstore "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-devstore-0.1.0-5e220b49-c4ad-4eab-8b04-dc6e6b7b0701-1741290089532/node_modules/devstore"
     eslint-plugin-prettier "^5.2.3"
     lucide-react "^0.288.0"
     next "15.2.0"
-    next15-fundamentals "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-devstore-0.1.0-c15803cc-b7e9-4ce4-a650-b98801162630-1741035994292/node_modules/devstore"
+    next15-fundamentals "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-devstore-0.1.0-5e220b49-c4ad-4eab-8b04-dc6e6b7b0701-1741290089532/node_modules/devstore"
     react "^19.0.0"
     react-dom "^19.0.0"
+    zod "^3.22.4"
 
 dir-glob@^3.0.1:
   version "3.0.1"
@@ -2403,13 +2404,14 @@ natural-compare@^1.4.0:
 "next15-fundamentals@file:.":
   version "0.1.0"
   dependencies:
-    devstore "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-next15-fundamentals-0.1.0-7b332217-8dab-4554-9df4-267744b34284-1741035994387/node_modules/next15-fundamentals"
+    devstore "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-next15-fundamentals-0.1.0-9829f9c7-f4a7-4048-b53e-b23530d9d222-1741290089603/node_modules/next15-fundamentals"
     eslint-plugin-prettier "^5.2.3"
     lucide-react "^0.288.0"
     next "15.2.0"
-    next15-fundamentals "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-next15-fundamentals-0.1.0-7b332217-8dab-4554-9df4-267744b34284-1741035994387/node_modules/next15-fundamentals"
+    next15-fundamentals "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-next15-fundamentals-0.1.0-9829f9c7-f4a7-4048-b53e-b23530d9d222-1741290089603/node_modules/next15-fundamentals"
     react "^19.0.0"
     react-dom "^19.0.0"
+    zod "^3.22.4"
 
 next@15.2.0:
   version "15.2.0"
@@ -3250,3 +3252,8 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+zod@^3.22.4:
+  version "3.24.2"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.24.2.tgz#8efa74126287c675e92f46871cfc8d15c34372b3"
+  integrity sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==
