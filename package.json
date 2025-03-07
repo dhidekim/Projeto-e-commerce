@@ -16,6 +16,7 @@
     "next15-fundamentals": "file:",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "tailwind-merge": "^1.14.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {
