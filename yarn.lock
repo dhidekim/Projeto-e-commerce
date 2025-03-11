@@ -1064,13 +1064,14 @@ detect-libc@^2.0.3:
 "devstore@file:.":
   version "0.1.0"
   dependencies:
-    devstore "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-devstore-0.1.0-5e220b49-c4ad-4eab-8b04-dc6e6b7b0701-1741290089532/node_modules/devstore"
+    devstore "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-devstore-0.1.0-ef320746-d6ae-418a-a2e2-9cab3b22ec9a-1741369710759/node_modules/devstore"
     eslint-plugin-prettier "^5.2.3"
     lucide-react "^0.288.0"
     next "15.2.0"
-    next15-fundamentals "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-devstore-0.1.0-5e220b49-c4ad-4eab-8b04-dc6e6b7b0701-1741290089532/node_modules/devstore"
+    next15-fundamentals "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-devstore-0.1.0-ef320746-d6ae-418a-a2e2-9cab3b22ec9a-1741369710759/node_modules/devstore"
     react "^19.0.0"
     react-dom "^19.0.0"
+    tailwind-merge "^1.14.0"
     zod "^3.22.4"
 
 dir-glob@^3.0.1:
@@ -2404,13 +2405,14 @@ natural-compare@^1.4.0:
 "next15-fundamentals@file:.":
   version "0.1.0"
   dependencies:
-    devstore "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-next15-fundamentals-0.1.0-9829f9c7-f4a7-4048-b53e-b23530d9d222-1741290089603/node_modules/next15-fundamentals"
+    devstore "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-next15-fundamentals-0.1.0-28efe725-92a4-4d13-8af3-69bdf7a078ca-1741369710798/node_modules/next15-fundamentals"
     eslint-plugin-prettier "^5.2.3"
     lucide-react "^0.288.0"
     next "15.2.0"
-    next15-fundamentals "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-next15-fundamentals-0.1.0-9829f9c7-f4a7-4048-b53e-b23530d9d222-1741290089603/node_modules/next15-fundamentals"
+    next15-fundamentals "file:../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-next15-fundamentals-0.1.0-28efe725-92a4-4d13-8af3-69bdf7a078ca-1741369710798/node_modules/next15-fundamentals"
     react "^19.0.0"
     react-dom "^19.0.0"
+    tailwind-merge "^1.14.0"
     zod "^3.22.4"
 
 next@15.2.0:
@@ -3032,6 +3034,11 @@ synckit@^0.9.1:
   dependencies:
     "@pkgr/core" "^0.1.0"
     tslib "^2.6.2"
+
+tailwind-merge@^1.14.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/tailwind-merge/-/tailwind-merge-1.14.0.tgz#e677f55d864edc6794562c63f5001f45093cdb8b"
+  integrity sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ==
 
 tailwindcss@4.0.9, tailwindcss@^4.0.9:
   version "4.0.9"
