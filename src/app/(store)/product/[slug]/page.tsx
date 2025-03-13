@@ -25,7 +25,8 @@ async function getProduct(slug: string): Promise<Product> {
 export async function generateMetadata({
   params,
 }: ProductProps): Promise<Metadata> {
-  const product = await getProduct(params.slug)
+  const paramsReady = await params
+  const product = await getProduct(paramsReady.slug)
 
   return {
     title: product.title,
@@ -42,7 +43,8 @@ export async function generateStaticParams() {
 }
 
 export default async function ProductPage({ params }: ProductProps) {
-  const product = await getProduct(params.slug)
+  const paramsReady = await params
+  const product = await getProduct(paramsReady.slug)
 
   return (
     <div className="relative grid max-h-[860px] grid-cols-3">
