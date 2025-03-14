@@ -1,12 +1,12 @@
 'use client'
 
 import { Skeleton } from '@/components/skeleton'
-import { useSearchParams } from 'next/navigation'
+// import { useSearchParams } from 'next/navigation'
 
 export default function SearchLoading() {
-  const searchParams = useSearchParams()
+  // const searchParams = useSearchParams()
 
-  const query = searchParams.get('q')
+  const query = 'carregando...' // searchParams.get('q')
 
   return (
     <div className="flex flex-col gap-4">
